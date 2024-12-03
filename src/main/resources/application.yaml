@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/postgres
-    username: postgres
-    password: 123
+    url: jdbc:postgresql://<RAILWAY_POSTGRES_HOST>:<RAILWAY_POSTGRES_PORT>/<RAILWAY_POSTGRES_DB>
+    username: <RAILWAY_POSTGRES_USER>
+    password: <RAILWAY_POSTGRES_PASSWORD>
   jpa:
     properties:
       hibernate:
